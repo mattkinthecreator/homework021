@@ -5,3 +5,33 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*header*/
+
+.header {
+  height: 100vh;
+  width: 99vw;
+  background: url(./images/headerbg.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 21px;
+}
+.header__nav {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px 0 40px;
+}
+.logo {
+}
+.header__burger {
+}
+.header__title {
+}
+.header__subtitle {
+}
