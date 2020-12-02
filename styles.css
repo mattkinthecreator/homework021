@@ -78,9 +78,20 @@ body {
 }
 
 .about__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.1em;
 }
+
 .about__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
 }
+
 .about__img-container {
 }
 .about__img {
