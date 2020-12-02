@@ -67,3 +67,25 @@ body {
   letter-spacing: 0.1em;
   color: #ffffff;
 }
+
+/* about */
+
+.about {
+  width: 99vw;
+  height: 740px;
+  background: #000000;
+  color: #fff;
+}
+
+.about__title {
+}
+.about__text {
+}
+.about__img-container {
+}
+.about__img {
+}
+.about__img_big {
+}
+.about__img_biggest {
+}
