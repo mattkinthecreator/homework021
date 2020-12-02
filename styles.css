@@ -152,7 +152,36 @@ body {
 }
 .subscribe__form {
 }
+
 .subscribe__form-input {
+  height: 37px;
+  width: 335px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1em;
 }
+
+.subscribe__form-input::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
 .subscribe__form-btn {
 }
