@@ -103,6 +103,7 @@ body {
 }
 
 .about__img {
+  border-radius: 30px;
   object-fit: contain;
   grid-area: first;
 }
