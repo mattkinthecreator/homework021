@@ -131,6 +131,10 @@ body {
   color: #fff;
   background: url(./images/subscribe-bg.jpg) no-repeat center;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
 }
 
 .subscribe__title {
@@ -139,6 +143,7 @@ body {
   font-size: 40px;
   line-height: 49px;
   letter-spacing: 0.1em;
+  margin-bottom: 34px;
 }
 
 .subscribe__text {
@@ -148,8 +153,11 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  text-align: center;
   letter-spacing: 0.1em;
+  margin-bottom: 110px;
 }
+
 .subscribe__form {
   width: 335px;
   height: 126px;
