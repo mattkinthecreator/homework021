@@ -82,6 +82,7 @@ body {
   font-size: 40px;
   line-height: 49px;
   letter-spacing: 0.1em;
+  white-space: nowrap;
 }
 
 .about__text {
@@ -90,6 +91,11 @@ body {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.1em;
+  height: 286px;
+  width: 348px;
+  left: 188px;
+  top: 202px;
+  border-radius: nullpx;
 }
 
 .about__img-container {
