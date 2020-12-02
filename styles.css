@@ -209,3 +209,56 @@ body {
   text-align: center;
   letter-spacing: 0.1em;
 }
+
+/* footer */
+
+.footer {
+  width: 99vw;
+  height: 89px;
+  background: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.footer__nav {
+  height: 24px;
+  width: 116px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__ig {
+  display: block;
+  background: url(./images/instagram.svg) center no-repeat;
+  background-size: contain;
+  height: 24px;
+  width: 24px;
+}
+.footer__fb {
+  display: block;
+  background: url(./images/facebook.svg) center no-repeat;
+  background-size: contain;
+  height: 24px;
+  width: 24px;
+}
+.footer__twitter {
+  display: block;
+  background: url(./images/twitter.svg) center no-repeat;
+  background-size: contain;
+  height: 24px;
+  width: 24px;
+}
+
+.support-email {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-decoration: none;
+}
