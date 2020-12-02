@@ -151,6 +151,8 @@ body {
   letter-spacing: 0.1em;
 }
 .subscribe__form {
+  width: 335px;
+  height: 126px;
 }
 
 .subscribe__form-input {
@@ -170,6 +172,7 @@ body {
   line-height: 22px;
   text-align: center;
   letter-spacing: 0.1em;
+  margin-bottom: 25px;
 }
 
 .subscribe__form-input::placeholder {
