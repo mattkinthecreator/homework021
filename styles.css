@@ -93,10 +93,22 @@ body {
 }
 
 .about__img-container {
+  display: grid;
+  grid-template-areas:
+    'first third'
+    'second third';
+  grid-template-columns: 240px 326px;
+  grid-template-rows: 186px 249px;
+  grid-gap: 25px 22px;
 }
+
 .about__img {
+  object-fit: contain;
+  grid-area: first;
 }
 .about__img_big {
+  grid-area: second;
 }
 .about__img_biggest {
+  grid-area: third;
 }
