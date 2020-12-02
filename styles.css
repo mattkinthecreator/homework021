@@ -75,6 +75,9 @@ body {
   height: 740px;
   background: #000000;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 116px 156px 0 188px;
 }
 
 .about__title {
