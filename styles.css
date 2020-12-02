@@ -134,8 +134,21 @@ body {
 }
 
 .subscribe__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.1em;
 }
+
 .subscribe__text {
+  width: 721px;
+  height: 110px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
 }
 .subscribe__form {
 }
