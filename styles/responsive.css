@@ -1,1 +1,50 @@
-@media 
+@media (max-width: 768px) {
+  /* header */
+
+  .header {
+    height: 852px;
+    background-color: #000;
+  }
+
+  .header__title {
+    font-size: 90px;
+    line-height: 110px;
+    letter-spacing: 0.3em;
+  }
+
+  /* about */
+
+  .about {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 59px;
+    height: 919px;
+    padding: 30px 112px 0 112px;
+  }
+
+  .about__text-wrapper {
+    width: 591px;
+  }
+
+  .about__title {
+    margin-bottom: 37px;
+  }
+
+  .about__text {
+    width: 591px;
+    height: 176px;
+  }
+
+  /* subscribe */
+
+  .subscribe__text {
+    width: 591px;
+    height: 132px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* header */
+
+}
