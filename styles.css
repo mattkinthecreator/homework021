@@ -122,3 +122,24 @@ body {
 .about__img_biggest {
   grid-area: third;
 }
+
+/* subscribe */
+
+.subscribe {
+  width: 99vw;
+  height: 625px;
+  color: #fff;
+  background: url(./images/subscribe-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.subscribe__title {
+}
+.subscribe__text {
+}
+.subscribe__form {
+}
+.subscribe__form-input {
+}
+.subscribe__form-btn {
+}
