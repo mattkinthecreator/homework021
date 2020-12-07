@@ -1,3 +1,11 @@
+@media (max-width: 1059px) {
+  .header__title {
+    font-size: 11vw;
+    line-height: 13.5vw;
+    letter-spacing: 0.3em;
+  }
+}
+
 @media (max-width: 768px) {
   /* header */
 
