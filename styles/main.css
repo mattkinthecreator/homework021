@@ -28,7 +28,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 40px 0 40px;
-  margin-bottom: 277px;
+  margin-bottom: 32vh;
 }
 
 .logo {
@@ -52,11 +52,11 @@ body {
 .header__title {
   font-style: normal;
   font-weight: normal;
-  font-size: 150px;
-  line-height: 183px;
+  font-size: 17vh;
+  line-height: 21vh;
   letter-spacing: 0.3em;
   color: #ffffff;
-  margin-bottom: 70px;
+  margin-bottom: 8vh;
 }
 
 .header__subtitle {
@@ -72,12 +72,14 @@ body {
 
 .about {
   width: 99vw;
-  height: 740px;
+  min-height: 740px;
   background: #000000;
   color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 116px 156px 0 188px;
+  flex-flow: wrap;
+  gap: 59px 0;
+  padding: 8vw 11vw 0 13vw;
 }
 
 .about__title {
@@ -94,33 +96,41 @@ body {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.1em;
-  height: 286px;
-  width: 348px;
+  min-height: 286px;
+  max-width: 348px;
   border-radius: nullpx;
 }
 
 .about__img-container {
+  max-width: 591px;
+  max-height: 457px;
   display: grid;
   grid-template-areas:
     'first third'
     'second third';
-  grid-template-columns: 240px 326px;
-  grid-template-rows: 186px 249px;
+  grid-template-columns: minmax(123px, auto) minmax(169px, auto);
+  grid-template-rows: minmax(92px, auto) minmax(127px, auto);
   grid-gap: 25px 22px;
+  margin-bottom: 12vh;
 }
 
 .about__img {
+  height: 186px;
+  width: 240px;
   border-radius: 30px;
-  object-fit: contain;
+  object-fit: cover;
   grid-area: first;
 }
 
 .about__img_big {
   grid-area: second;
+  height: 246px;
 }
 
 .about__img_biggest {
   grid-area: third;
+  width: 326px;
+  height: 457px;
 }
 
 /* subscribe */
