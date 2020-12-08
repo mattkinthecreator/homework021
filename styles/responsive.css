@@ -1,5 +1,5 @@
 @media (max-width: 1059px) {
-  .header__title {
+  .hero__title {
     font-size: 11vw;
     line-height: 13.5vw;
     letter-spacing: 0.3em;
@@ -9,12 +9,7 @@
 @media (max-width: 768px) {
   /* header */
 
-  .header {
-    height: 852px;
-    background-color: #000;
-  }
-
-  .header__title {
+  .hero__title {
     font-size: 11vw;
     line-height: 13.5vw;
     letter-spacing: 0.3em;
@@ -27,7 +22,7 @@
     flex-flow: column;
     justify-content: center;
     gap: 59px;
-    height: 919px;
+    min-height: 919px;
     padding: 30px 14vw 0 14vw;
   }
 
@@ -76,21 +71,17 @@
   /* header */
 
   .header {
-    height: 621px;
+    /* min-height: 621px; */
+    padding: 23px 24px 0 24px;
   }
 
-  .header__nav {
-    padding: 0 24px 0 24px;
-    margin-bottom: 229px;
-  }
-
-  .header__title {
+  .hero__title {
     font-size: 40px;
     line-height: 49px;
     letter-spacing: 0.3em;
   }
 
-  .header__subtitle {
+  .hero__subtitle {
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.2em;

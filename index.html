@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="./styles/responsive.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="header__nav">
+    <div class="wrapper">
+      <header class="header">
         <a href="#" class="logo">TRVL</a>
-        <a href="#" class="header__burger"></a>
-      </nav>
-
-      <h1 class="header__title">EXPLORE</h1>
-      <h3 class="header__subtitle">Mountain travelings</h3>
-    </header>
+        <div href="#" class="header__burger"></div>
+      </header>
+      <section class="hero">
+        <h1 class="hero__title">EXPLORE</h1>
+        <h3 class="hero__subtitle">Mountain travelings</h3>
+      </section>
+    </div>
     <section class="about">
       <div class="about__text-wrapper">
         <h2 class="about__title">Travel with us</h2>
@@ -62,12 +63,14 @@
       </form>
     </section>
     <footer class="footer">
-      <nav class="footer__nav">
-        <a href="#" class="footer__nav-link"><i class="footer__ig"></i></a>
-        <a href="#" class="footer__nav-link"><i class="footer__fb"></i></a>
-        <a href="#" class="footer__nav-link"><i class="footer__twitter"></i></a>
-      </nav>
-      <a href="#" class="logo">TRVL</a>
+      <div class="footer__social-menu">
+        <a href="#" class="footer__social-link"><i class="footer__ig"></i></a>
+        <a href="#" class="footer__social-link"><i class="footer__fb"></i></a>
+        <a href="#" class="footer__social-link"
+          ><i class="footer__twitter"></i
+        ></a>
+      </div>
+      <p class="logo">TRVL</p>
       <a href="mailto:support@trvl.com" class="support-email"
         >support@trvl.com</a
       >
